@@ -1,0 +1,209 @@
+﻿body
+{
+	background-color: black;
+	color: black;
+	margin:0 !important;
+	font-family: 'PT Sans', sans-serif;
+	padding:0 !important;
+	
+	
+}
+
+
+
+
+.rectangle2
+{
+
+	margin: 10px;
+	min-height:230px;
+
+}
+
+
+
+#zegar1
+{
+	float: right;
+	padding-top:8px;
+	width: 30%;
+	
+}
+
+
+@media (max-width: 1020px)
+{
+	#zegar1{ width: 70%;}
+	
+}
+
+@media (max-width: 500px)
+{
+	#zegar1{ display:none;}
+	
+}
+
+
+#zegar
+{
+	color: white;
+	float:right;
+	font-size: 30px;
+	text-align: center;
+	margin: 5px;
+	height: 50px;
+	
+}
+
+
+.yt
+{
+	margin: 10px;
+	float: right;
+	text-align: center;
+	
+}
+
+.yt1
+{
+	margin: 10px;
+	margin-right:50px;
+	float: left;
+	text-align: center;
+	
+}
+
+
+
+.yt2
+{
+	margin: 5px;
+	height: 50px;
+	float: right;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	
+}
+
+.square1
+{
+	float:left;
+	width:40%px;
+	min-height:230px;
+	display: inline-block;
+	
+}
+.square2
+{
+	
+	float:left;
+	width:60%;
+	display: inline-block;
+	min-height:230px;
+	position: relative;
+		
+}
+
+
+
+.title1
+{
+	color:white;
+	font-size: 19px;
+	margin-left:20px;
+	min-height:110px;
+	display:block;
+}
+
+.title2 img
+{
+	width:230px;
+}
+
+
+.title3
+{
+	float:left;
+	color: white;
+	min-height:105px;
+	width:30%;
+}
+
+.title31
+{
+	display:block;
+	float:left;
+	color: white;
+	width:70%
+}
+
+
+.title4
+{
+	display:block;
+	height:25px;
+}
+
+.title5
+{
+	
+	float:left;
+	display: inline-block;
+}
+
+.title5 img
+{
+	width: 95px;
+	height: 95px;
+	margin-right:10px;
+}
+
+.title7
+{
+
+	padding-left:15px;
+	margin-top: 30px;
+	font-size: 2,3vw;
+
+}
+
+.title7 p
+{
+	vertical-align: middle;
+}
+
+@media (max-width: 768px){
+	.title3, .square1 { display: none; }
+	.title1 {margin:0px;}
+	.title31 {display:inline-block; width:100%;}
+	.square2 {width:100%;}
+}
+
+
+
+.col-sm-4 col-md-2
+{
+	display: inline-block;
+	width: 16%;
+}
+.row img
+{
+	width:100%;
+	margin: 10px;
+}
+.col-sm-4 img
+{
+	width: 95%;
+	margin:15px 10px 15px 10px;
+}
+
+
+.col-sm-4 img:hover
+{
+	box-shadow: 0 2px 16px white;
+}
+
+
+
+
